@@ -11,6 +11,12 @@
 #
 name: "CodeQL"
 
+env:
+  BC_JDK8: /usr/lib/jvm/temurin-8-jdk-amd64
+  BC_JDK11: /usr/lib/jvm/temurin-11-jdk-amd64
+  BC_JDK17: /usr/lib/jvm/temurin-17-jdk-amd64
+  BC_JDK21: /usr/lib/jvm/temurin-21-jdk-amd64
+
 on:
   push:
     branches: [ "master" ]
